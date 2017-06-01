@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d5723f5a-76f2-4099-8dfe-9962880fa21f}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="insightly\insightly\Areas\HelpPage\HelpPage.css" />
+    <Content Include="insightly\insightly\Content\bootstrap.css" />
+    <Content Include="insightly\insightly\Content\bootstrap.min.css" />
+    <Content Include="insightly\insightly\Content\Site.css" />
+    <Content Include="insightly\insightly\favicon.ico" />
+    <Content Include="insightly\insightly\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="insightly\insightly\Project_Readme.html" />
+    <Content Include="insightly\insightly\Scripts\ai.0.22.19-build00125.js" />
+    <Content Include="insightly\insightly\Scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="insightly\insightly\Scripts\bootstrap.js" />
+    <Content Include="insightly\insightly\Scripts\bootstrap.min.js" />
+    <Content Include="insightly\insightly\Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="insightly\insightly\Scripts\jquery-1.10.2.js" />
+    <Content Include="insightly\insightly\Scripts\jquery-1.10.2.min.js" />
+    <Content Include="insightly\insightly\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="insightly\insightly\Scripts\jquery.validate.js" />
+    <Content Include="insightly\insightly\Scripts\jquery.validate.min.js" />
+    <Content Include="insightly\insightly\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="insightly\insightly\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="insightly\insightly\Scripts\modernizr-2.6.2.js" />
+    <Content Include="insightly\insightly\Scripts\respond.js" />
+    <Content Include="insightly\insightly\Scripts\respond.min.js" />
+    <Content Include="insightly\insightly\Scripts\_references.js" />
+    <Content Include="insightly\packages\bootstrap.3.0.0\content\Content\bootstrap.css" />
+    <Content Include="insightly\packages\bootstrap.3.0.0\content\Content\bootstrap.min.css" />
+    <Content Include="insightly\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="insightly\packages\bootstrap.3.0.0\content\Scripts\bootstrap.js" />
+    <Content Include="insightly\packages\bootstrap.3.0.0\content\Scripts\bootstrap.min.js" />
+    <Content Include="insightly\packages\EntityFramework.6.1.3\tools\about_EntityFramework.help.txt" />
+    <Content Include="insightly\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="insightly\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.js" />
+    <Content Include="insightly\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.js" />
+    <Content Include="insightly\packages\jQuery.1.10.2\Tools\jquery-1.10.2.intellisense.js" />
+    <Content Include="insightly\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="insightly\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.js" />
+    <Content Include="insightly\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.min.js" />
+    <Content Include="insightly\packages\Microsoft.ApplicationInsights.JavaScript.0.22.19-build00125\content\scripts\ai.0.22.19-build00125.js" />
+    <Content Include="insightly\packages\Microsoft.ApplicationInsights.JavaScript.0.22.19-build00125\content\scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="insightly\packages\Microsoft.ApplicationInsights.JavaScript.0.22.19-build00125\tools\prefix.html" />
+    <Content Include="insightly\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="insightly\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="insightly\packages\Modernizr.2.6.2\Content\Scripts\modernizr-2.6.2.js" />
+    <Content Include="insightly\packages\Respond.1.2.0\content\Scripts\respond.js" />
+    <Content Include="insightly\packages\Respond.1.2.0\content\Scripts\respond.min.js" />
+    <Content Include="Scope\packages\bootstrap.3.0.0\content\Content\bootstrap.css" />
+    <Content Include="Scope\packages\bootstrap.3.0.0\content\Content\bootstrap.min.css" />
+    <Content Include="Scope\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scope\packages\bootstrap.3.0.0\content\Scripts\bootstrap.js" />
+    <Content Include="Scope\packages\bootstrap.3.0.0\content\Scripts\bootstrap.min.js" />
+    <Content Include="Scope\packages\EntityFramework.6.1.3\tools\about_EntityFramework.help.txt" />
+    <Content Include="Scope\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="Scope\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.js" />
+    <Content Include="Scope\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scope\packages\jQuery.1.10.2\Tools\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scope\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scope\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.js" />
+    <Content Include="Scope\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.min.js" />
+    <Content Include="Scope\packages\Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167\content\scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Scope\packages\Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167\content\scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Scope\packages\Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167\tools\prefix.html" />
+    <Content Include="Scope\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scope\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scope\packages\Modernizr.2.6.2\Content\Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scope\packages\Respond.1.2.0\content\Scripts\respond.js" />
+    <Content Include="Scope\packages\Respond.1.2.0\content\Scripts\respond.min.js" />
+    <Content Include="Scope\Scope\Areas\HelpPage\HelpPage.css" />
+    <Content Include="Scope\Scope\Content\bootstrap.css" />
+    <Content Include="Scope\Scope\Content\bootstrap.min.css" />
+    <Content Include="Scope\Scope\Content\Site.css" />
+    <Content Include="Scope\Scope\favicon.ico" />
+    <Content Include="Scope\Scope\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scope\Scope\obj\Debug\Scope.csproj.FileListAbsolute.txt" />
+    <Content Include="Scope\Scope\Project_Readme.html" />
+    <Content Include="Scope\Scope\Scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Scope\Scope\Scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Scope\Scope\Scripts\bootstrap.js" />
+    <Content Include="Scope\Scope\Scripts\bootstrap.min.js" />
+    <Content Include="Scope\Scope\Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scope\Scope\Scripts\jquery-1.10.2.js" />
+    <Content Include="Scope\Scope\Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scope\Scope\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scope\Scope\Scripts\jquery.validate.js" />
+    <Content Include="Scope\Scope\Scripts\jquery.validate.min.js" />
+    <Content Include="Scope\Scope\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scope\Scope\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scope\Scope\Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scope\Scope\Scripts\respond.js" />
+    <Content Include="Scope\Scope\Scripts\respond.min.js" />
+    <Content Include="Scope\Scope\Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="insightly\" />
+    <Folder Include="insightly\insightly" />
+    <Folder Include="insightly\insightly\Areas\" />
+    <Folder Include="insightly\insightly\Areas\HelpPage" />
+    <Folder Include="insightly\insightly\Content" />
+    <Folder Include="insightly\insightly\fonts" />
+    <Folder Include="insightly\insightly\Scripts" />
+    <Folder Include="insightly\packages\" />
+    <Folder Include="insightly\packages\bootstrap.3.0.0\" />
+    <Folder Include="insightly\packages\bootstrap.3.0.0\content\" />
+    <Folder Include="insightly\packages\bootstrap.3.0.0\content\Content" />
+    <Folder Include="insightly\packages\bootstrap.3.0.0\content\fonts" />
+    <Folder Include="insightly\packages\bootstrap.3.0.0\content\Scripts" />
+    <Folder Include="insightly\packages\EntityFramework.6.1.3\" />
+    <Folder Include="insightly\packages\EntityFramework.6.1.3\tools" />
+    <Folder Include="insightly\packages\jQuery.1.10.2\" />
+    <Folder Include="insightly\packages\jQuery.1.10.2\Content\" />
+    <Folder Include="insightly\packages\jQuery.1.10.2\Content\Scripts" />
+    <Folder Include="insightly\packages\jQuery.1.10.2\Tools" />
+    <Folder Include="insightly\packages\jQuery.Validation.1.11.1\" />
+    <Folder Include="insightly\packages\jQuery.Validation.1.11.1\Content\" />
+    <Folder Include="insightly\packages\jQuery.Validation.1.11.1\Content\Scripts" />
+    <Folder Include="insightly\packages\Microsoft.ApplicationInsights.JavaScript.0.22.19-build00125\" />
+    <Folder Include="insightly\packages\Microsoft.ApplicationInsights.JavaScript.0.22.19-build00125\content\" />
+    <Folder Include="insightly\packages\Microsoft.ApplicationInsights.JavaScript.0.22.19-build00125\content\scripts" />
+    <Folder Include="insightly\packages\Microsoft.ApplicationInsights.JavaScript.0.22.19-build00125\tools" />
+    <Folder Include="insightly\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\" />
+    <Folder Include="insightly\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\" />
+    <Folder Include="insightly\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts" />
+    <Folder Include="insightly\packages\Modernizr.2.6.2\" />
+    <Folder Include="insightly\packages\Modernizr.2.6.2\Content\" />
+    <Folder Include="insightly\packages\Modernizr.2.6.2\Content\Scripts" />
+    <Folder Include="insightly\packages\Respond.1.2.0\" />
+    <Folder Include="insightly\packages\Respond.1.2.0\content\" />
+    <Folder Include="insightly\packages\Respond.1.2.0\content\Scripts" />
+    <Folder Include="Scope\" />
+    <Folder Include="Scope\packages\" />
+    <Folder Include="Scope\packages\bootstrap.3.0.0\" />
+    <Folder Include="Scope\packages\bootstrap.3.0.0\content\" />
+    <Folder Include="Scope\packages\bootstrap.3.0.0\content\Content" />
+    <Folder Include="Scope\packages\bootstrap.3.0.0\content\fonts" />
+    <Folder Include="Scope\packages\bootstrap.3.0.0\content\Scripts" />
+    <Folder Include="Scope\packages\EntityFramework.6.1.3\" />
+    <Folder Include="Scope\packages\EntityFramework.6.1.3\tools" />
+    <Folder Include="Scope\packages\jQuery.1.10.2\" />
+    <Folder Include="Scope\packages\jQuery.1.10.2\Content\" />
+    <Folder Include="Scope\packages\jQuery.1.10.2\Content\Scripts" />
+    <Folder Include="Scope\packages\jQuery.1.10.2\Tools" />
+    <Folder Include="Scope\packages\jQuery.Validation.1.11.1\" />
+    <Folder Include="Scope\packages\jQuery.Validation.1.11.1\Content\" />
+    <Folder Include="Scope\packages\jQuery.Validation.1.11.1\Content\Scripts" />
+    <Folder Include="Scope\packages\Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167\" />
+    <Folder Include="Scope\packages\Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167\content\" />
+    <Folder Include="Scope\packages\Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167\content\scripts" />
+    <Folder Include="Scope\packages\Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167\tools" />
+    <Folder Include="Scope\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\" />
+    <Folder Include="Scope\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\" />
+    <Folder Include="Scope\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts" />
+    <Folder Include="Scope\packages\Modernizr.2.6.2\" />
+    <Folder Include="Scope\packages\Modernizr.2.6.2\Content\" />
+    <Folder Include="Scope\packages\Modernizr.2.6.2\Content\Scripts" />
+    <Folder Include="Scope\packages\Respond.1.2.0\" />
+    <Folder Include="Scope\packages\Respond.1.2.0\content\" />
+    <Folder Include="Scope\packages\Respond.1.2.0\content\Scripts" />
+    <Folder Include="Scope\Scope" />
+    <Folder Include="Scope\Scope\Areas\" />
+    <Folder Include="Scope\Scope\Areas\HelpPage" />
+    <Folder Include="Scope\Scope\Content" />
+    <Folder Include="Scope\Scope\fonts" />
+    <Folder Include="Scope\Scope\obj\" />
+    <Folder Include="Scope\Scope\obj\Debug" />
+    <Folder Include="Scope\Scope\Scripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="apiproxy.py" />
+    <Compile Include="import_example.py" />
+    <Compile Include="insightly.py" />
+    <Compile Include="insightlytest.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
